@@ -10,8 +10,8 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class Web {
-    public static final String AUTOMATE_USERNAME = "natalia_UVau8Y";
-    public static final String AUTOMATE_ACCESS_KEY = "tn8c23SMd3jMQBUToLVh";
+    public static final String AUTOMATE_USERNAME = "";
+    public static final String AUTOMATE_ACCESS_KEY = "";
     public static final String URL = "https://" + AUTOMATE_USERNAME + ":" + AUTOMATE_ACCESS_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
     public static WebDriver createChrome() {
